@@ -1,0 +1,34 @@
+function loadData(name){
+	if(name=="btn1"){
+		document.getElementById("title").innerHTML="60+";
+		document.getElementById("para").innerHTML = "Your health insurance needs are different in retirement than they are during your working career.<br> While many people plan to use health insurance during retirement,<br> This plan is generally only available for those who are 60 and older, or those who meet certain other eligibility criteria.<br> If you retire before you’re eligible for the 60+ plan , you’ll have to find an alternative source of coverage.<br> Maintaining health insurance when you retire is essential for your financial security since healthcare costs can increase as you age.<br><br><center><table border='1' align='center'><tr><th>Policies</th><th>Description</th><th>Premium</tr></tr><tr><td>60+ Lite</td><td>policyholders will be eligible for additional rewards as a tribute for their loyalty</td><td>14,000</td></tr><tr><td>60+ Plus</td><td>All policyholders stand a chance to take part in the  consumer promotion</td><td>20,500</td></tr><tr><td>60 Extra</td><td>All policy holders and their children are eligible for a scholarship scheme</td><td>31,000</td></tr></table></center>";
+		document.getElementById("image1").src = "images/icon-sign-information-age-limit-vector-illustration-148222572.jpg";
+}
+	else if(name=="btn2"){
+		document.getElementById("title").innerHTML="Family";
+		document.getElementById("para").innerHTML = "Family coverage is an insurance policy that covers an entire family. Often, employers offer it as a benefit for their employees.<br> Family coverage can include dental insurance, health insurance, life insurance, accidental death and dismemberment insurance, and more.<br> Such plans may also be purchased outside of an employer network Advertisem.<br><br><center><table border='1' align='center'><tr><th>Policies</th><th>Description</th><th>Premium</tr></tr><tr><td>Family Lite</td><td>policyholders will be eligible for additional rewards as a tribute for their loyalty</td><td>25,000</td></tr><tr><td>Family Plus</td><td>All policyholders stand a chance to take part in the  consumer promotion</td><td>30,500</td></tr><tr><td>Family Extra</td><td>All policy holders and their children are eligible for a scholarship scheme</td><td>40,000</td></tr></table></center>";
+		document.getElementById("image1").src = "images/family.jpg";
+}
+	else if(name=="btn3") {
+		document.getElementById("title").innerHTML="Accidents";
+		document.getElementById("para").innerHTML = "Life is highly unpredictable. While you hope for the best for yourself as well as your family members,<br> there is no one denying the fact that mishaps like road accidents can occur anytime.<br> While you might have a health insurance policy for family to get protection against medical expenses in case of an illness or disease, what about coverage for accident injuries? <br> Does your policy cover that as well?...YES, When purchasing a medical policy, it is essential to understand the coverage offered by the policy thoroughly.<br> If you are planning to buy a policy anytime soon, This might be your sollution.<br><br><center><table border='1' align='center'><tr><th>Policies</th><th>Description</th><th>Premium</tr></tr><tr><td>Accidents Lite</td><td>policyholders will be eligible for additional rewards as a tribute for their loyalty</td><td>25,000</td></tr><tr><td>Accidents Plus</td><td>All policyholders stand a chance to take part in the  consumer promotion</td><td>32,000</td></tr><tr><td>Accidents Extra</td><td>All policy holders and their children are eligible for a scholarship scheme</td><td>43,000</td></tr></table></center>";
+		document.getElementById("image1").src = "images/pngtree-cartoon-character-injured-on-crutches-png-image_2386643.jpg";
+}
+	else if(name=="btn4"){
+		document.getElementById("title").innerHTML="Critical";
+		document.getElementById("para").innerHTML = "Perhaps you’ve never even heard of it. But in the event of a big health emergency, such as cancer, a heart attack, or a stroke, <br>critical illness insurance could be the only thing standing between you and financial ruin. Many people assume they’re fully protected with a standard health insurance plan,<br> but the exorbitant costs of treating life-threatening illnesses are usually more than any plan will cover.<br> Read below to learn more about critical illness insurance and whether it's something you and your family should consider..<br><ul><li>Critical illness insurance provides additional coverage for medical emergencies like heart attacks, strokes, or cancer</li><li>Because these emergencies or illnesses often incur greater-than-average medical costs,these policies pay out cash to help cover those overruns where traditional health insurance may fall short</li><li>These policies come at a relatively low cost. However, the instances that they will cover are generally limited to a few illnesses or emergencies.</li></ul><br><br><center><table border='1' align='center'><tr><th>Policies</th><th>Description</th><th>Premium</tr></tr><tr><td>Critical Lite</td><td>policyholders will be eligible for additional rewards as a tribute for their loyalty</td><td>44,000</td></tr><tr><td>Critical Plus</td><td>All policyholders stand a chance to take part in the  consumer promotion</td><td>55,000</td></tr><tr><td>Critical Extra</td><td>All policy holders and their children are eligible for a scholarship scheme</td><td>70,000</td></tr></table></center>";
+		document.getElementById("image1").src = "images/critical-rubber-stamp-word-inside-illustration-92047251.jpg";
+}
+	else if(name=="btn5"){
+		document.getElementById("title").innerHTML="Wellness";
+		document.getElementById("para").innerHTML = "If you're looking to buy health insurance, it's recommended that you choose for a plan that includes wellness programs rather than a basic plan.<br> The main advantage of purchasing a policy with a wellness program is that it functions as a booster, increasing the basic plan's protection quotient. <br>When you or a loved one is diagnosed with a medical problem, it assures that you and your loved ones are financially secure and obtain the greatest health-care facilities available..<br><br><center><table border='1' align='center'><tr><th>Policies</th><th>Description</th><th>Premium</tr></tr><tr><td>Wellness Lite</td><td>policyholders will be eligible for additional rewards as a tribute for their loyalty</td><td>36,000</td></tr><tr><td>Wellness Plus</td><td>All policyholders stand a chance to take part in the  consumer promotion</td><td>50,000</td></tr><tr><td>Wellness Extra</td><td>All policy holders and their children are eligible for a scholarship scheme</td><td>60,000</td></tr></table></center>";
+		document.getElementById("image1").src = "images/Spa-Workplace-Wellness.jpg";
+
+}
+	else{
+		alert("invalid");
+}
+}
+function ConfirmLogout() {
+	return confirm("Are you sure you want to logout?");
+}

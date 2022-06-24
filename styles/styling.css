@@ -1,0 +1,227 @@
+* {
+    margin: 0;
+    padding:0;
+}
+
+.main {
+    width: 100%;
+    background: linear-gradient(to top,rgba(0, 0, 0, 0.2)50%,rgba(0, 0, 0, 0.200)50%),url(health.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.navbar {
+    width: 1400px;
+    height: 75px;
+    margin: auto;
+}
+
+.icon {
+    width: 100px;
+    float: left;
+    height: 70px;
+}
+
+.logo {
+    color: rgba(4, 18, 250, 0.35);
+    font-size: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    float: left;
+    padding-top: 20px;
+}
+
+.menu {
+    width: 600px;
+    float: left;
+    height:70px;
+}
+
+ul {
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li {
+    list-style: none;
+    margin-left: 125px;
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+ul li a:hover {
+    color: rgba(4, 18, 250, 0.35);
+}
+
+.search {
+    width: 330px;
+    float: left;
+    margin-left: 370px;
+}
+
+.srch {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 150px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid rgba(4, 18, 250, 0.35);
+    margin-top: 13px;
+    color: white;
+    border-right: none;
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.btn {
+    width: 100px;
+    height: 40px;
+    background: rgba(4, 18, 250, 0.35);
+    border: rgba(4, 18, 250, 0.35);
+    margin-top: 13px;
+    color: white;
+    font-size: 15px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.btn:focus {
+    outline: none;
+}
+
+.srch:focus {
+    outline: none;
+}
+
+.content {
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: white;
+    position: relative;
+}
+
+.content .par {
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+}
+
+.content h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 50px;
+    padding-left: 20px;
+    margin-top: 9%;
+    letter-spacing: 2px;
+}
+
+.content .cn {
+    width: 160px;
+    height: 40px;
+    background: rgba(4, 18, 250, 0.35);
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.4s ease;
+}
+
+.content .cn a {
+    text-decoration: none;
+    color: darkblue;
+    transition: 0.3 ease;
+}
+
+.cn:hover {
+    background-color: white;
+}
+
+.form {
+    width: 300px;
+    height: 380px;
+    position: absolute;
+    top: -20px;
+    left: 870px;
+    border-radius: 10px;
+    padding: 25px;
+}
+
+.form h2 {
+    
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: transparent;
+    border-radius: 10px;
+    margin: 2px;
+    padding: 8px;
+    
+    
+}
+
+.form input {
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 1px solid rgba(4, 18, 250, 0.35);
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: white;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: sans-serif;
+}
+
+.form input:focus {
+    outline: none;
+}
+
+::placeholder {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.btnn {
+    
+    height: 40px;
+    background: rgba(4, 18, 250, 0.35);
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    transition: 0.4s ease;
+}
+
+.btnn a{
+    text-decoration: none;
+    color: darkblue;
+    font-weight: bold;
+}
+
+.form .link {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.form .link a {
+    text-decoration: none;
+    color: rgba(4, 18, 250, 0.35);
+}
